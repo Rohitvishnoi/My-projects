@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="javascript.js">
+
+  </script>
+  <title>Async JavaScript</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="container mt-5">
+      <table class="table table-light table-bordered w-100" id="conn">
+        <thead class="fs-3 fw-2 ms-4 table-success text-center table-hover">
+          <td class="fs-4 fw-dark">Name</td>
+          <td>Action</td>
+        </thead>
+        <tbody class="tablebody text-center">
+          <tr>
+            <td></td>
+            <td><button type="button" class="btn btn-light" onclick=cli() data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-eye" width="24" height="24"
+                  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path>
+                  <path d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6"></path>
+                </svg>
+              </button>
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="staticBackdropLabel">Description</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <table class="table-success table-bordered border-primary">
+                        <tr class="table-success">
+                          <td class="table-success">Name :</td>
+                          <td class="table-success"></td>
+                        </tr>
+                        <tr class="table-success">
+                          <td class="table-success">Id :</td>
+                          <td class="table-success"></td>
+                        </tr>
+                        <tr class="table-success">
+                          <td class="table-success">Email :</td>
+                          <td class="table-success"></td>
+                        </tr>
+                        <tr class="table-success">
+                          <td class="table-success">Gender :</td>
+                          <td class="table-success"></td>
+                        </tr>
+                        <tr class="table-success">
+                          <td class="table-success">Status :</td>
+                          <td class="table-success"></td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+</body>
+
+</html>

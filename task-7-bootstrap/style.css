@@ -1,0 +1,114 @@
+.ver-nav-bar #vert {
+    margin: 0;
+    width: 1px;
+    list-style: none;
+    height: 100%;
+}
+
+.form-control {
+    max-width: 700px;
+    border-radius: 20px;
+}
+
+#cards {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.right {
+    background-color: white;
+    border-radius: 25px;
+}
+
+.right .light-red {
+    border: none;
+    border-radius: 20px;
+}
+
+.right .one {
+    background-color: #fee4cb;
+}
+
+.right .two {
+    background-color: #e9e7fd;
+}
+
+.right .three {
+    background-color: #dbf6fd;
+}
+
+.right .four {
+    background-color: #ffd3e2;
+}
+
+.right .five {
+    background-color: #dbf6fd;
+}
+
+.right .six {
+    background-color: #d5deff;
+}
+
+.right .one .btn {
+    background-color: #fff4ea;
+    color: #ff942e;
+    border: none;
+    width: 140px;
+    border-radius: 20px;
+}
+
+.right .two .btn {
+    background-color: #f6f5fe;
+    color: #5242f0;
+    border: none;
+    width: 140px;
+    border-radius: 20px;
+}
+
+.right .three .btn {
+    background-color: #f1fbfe;
+    color: #096c86;
+    border: none;
+    width: 140px;
+    border-radius: 20px;
+}
+
+.right .four .btn {
+    background-color: #ffedf3;
+    color: #df3670;
+    border: none;
+    width: 140px;
+    border-radius: 20px;
+}
+
+.right .five .btn {
+    background-color: #e9fcf1;
+    color: #3fc779;
+    border: none;
+    width: 140px;
+    border-radius: 20px;
+}
+
+.right .six .btn {
+    background-color: #eef2ff;
+    color: #7f99fb;
+    border: none;
+    width: 140px;
+    border-radius: 20px;
+}
+
+.right .numbers {
+    letter-spacing: 5;
+}
+
+.ver-nav-bar .left {
+    padding-left: none;
+}
+
+.right .row .col {
+    margin-bottom: 20px;
+}

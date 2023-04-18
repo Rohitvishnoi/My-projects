@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Poppins:wght@200&display=swap');
+.container {
+    width: 100;
+    background-color: aliceblue;
+    /* min-height:100px; */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.container .left-side {
+    align-items: center;
+    width: 70;
+    margin-left: 150px;
+    background-color: white;
+}
+
+.left-side p {
+    color: #545e6c;
+}
+.container .left-side h3{
+    color:#3f4650;
+}
+.container .left-side .skills progress {
+    width: 400px;
+}
+
+.container .right-side {
+    width: 250px;
+    background-color: #5a42c0;
+    color: white;
+}
+
+.left-side h1 {
+    text-transform: uppercase;
+    color: #2d7788;
+    font-weight: bold;
+
+}
+
+section {
+    margin: 5px 15px 20px 15px;
+}
+
+.right-side .initial {
+    text-align: center;
+    /* background-color: #26509e; */
+    background-color: #48359a;
+    margin: 0;
+    padding-top: 10px;
+    padding: 5px;
+    font-weight: 150;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.left-side .skills .datavalue {
+    padding: 5px;
+    letter-spacing: 5;
+}
+
+.right-side .contact {
+    padding-bottom: 15px;
+}
+
+.right-side .contact .contactinf {
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.right-side img {
+    margin-top:1em ;
+    position: center;
+    width: 5em;
+    height: 6em;
+    border-radius: 50%;
+
+}
+
+.right-side .white {
+
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.right-side .contact {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    letter-spacing: 2px;
+    ;
+}
+
+.right-side .edu {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    letter-spacing: 2px;
+    ;
+}
+
+.lang {
+    letter-spacing: 2px;
+    ;
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medical Form</title>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>Medical Form</legend>
+      <fieldset>
+        <legend>Primary Details</legend>
+        <table>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>Valid Till</td>
+          </tr>
+          <tr>
+            <td>Medicare No</td>
+            <td><input type="text" /></td>
+            <td><input type="date" /></td>
+          </tr>
+          <tr>
+            <td>Title</td>
+            <td><select name="title" id="title">
+                <option value="Mr.">Mr.</option>
+                <option value="Miss">Miss</option>
+                <option value="Mrs">Mrs</option>
+              </select></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Lastname,Firstname,Middlename</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Name</td>
+            <td colspan="2"><input type="text" /></td>
+
+          </tr>
+          <tr>
+            <td>Pref. Name</td>
+            <td colspan="2"><input type="text" /></td>
+
+          </tr>
+          <tr>
+            <td>DOB</td>
+            <td><input type="checkbox"><input type="date"></td>
+
+          </tr>
+          <tr>
+            <td>Sex</td>
+            <td><input type="radio" name="sex" id="sex" value="Male">Male
+              <input type="radio" name="sex" id="sex" value="Female">Female
+            </td>
+          </tr>
+          <tr>
+            <td>Family Name</td>
+            <td><input type="text" name="Fname" id="Fname">
+              <input type="button" name="L" value="N">
+            </td>
+            <td><input type="button" name="L" value="I"></td>
+          </tr>
+        </table>
+      </fieldset>
+      <form>
+        <fieldset>
+          <legend>Contact Details</legend>
+          <table>
+            <tr>
+              <td></td>
+              <td>Home</td>
+              <td>Work</td>
+            </tr>
+            <tr>
+              <td><label for="num">Phone</label></td>
+              <td><input type="text" /></td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Mobile</td>
+              <td>Fax</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><input type="text" /></td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Next of Kin</td>
+              <td>Next of Kin Ph:</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><input type="text" /></td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td>Emerg. No</td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td><input type="email" /></td>
+            </tr>
+          </table>
+        </fieldset>
+
+      </form>
+      <form>
+        <fieldset>
+          <legend>Address Details</legend>
+          <form>
+            <fieldset>
+              <legend>Residential Address</legend>
+              <table>
+                <tr>
+                  <td>Address1</td>
+                  <td><input type="text"></td>
+                </tr>
+                <tr>
+                  <td>Address1</td>
+                  <td><input type="text"></td>
+                </tr>
+                <tr>
+                  <td>suburb</td>
+                  <td><input type="text"></td>
+                  <td>State</td>
+                  <td><select>
+                      <option name="state" value="Uttar Pradesh">Uttar Pradesh</option>
+                      <option name="state" value="Madhya Pradesh">Madhya Pradesh</option>
+                      <option name="state" value="Andhra Pradesh">Andhra Pradesh</option>
+                      <option name="state" value="Maharashtra">Maharashtra</option>
+                    </select></td>
+                </tr>
+                <tr>
+                  <td>Postal Code</td>
+                  <td><input type="text"></td>
+                  <td>Country</td>
+                  <td><input type="text"></td>
+                </tr>
+              </table>
+            </fieldset>
+          </form>
+          <fieldset>
+            <legend>Single Address</legend>
+            <lable for="box">Are Mailing Address and residential Address same?</lable>
+            <input type="checkbox" id="box" name="box" />yes
+          </fieldset>
+          <form>
+            <fieldset>
+              <legend>Mailing Address</legend>
+              <table>
+                <tr>
+                  <td>Address1</td>
+                  <td><input type="text"></td>
+                </tr>
+                <tr>
+                  <td>Address1</td>
+                  <td><input type="text"></td>
+                </tr>
+                <tr>
+                  <td>suburb</td>
+                  <td><input type="text"></td>
+                  <td>State</td>
+                  <td><select>
+                      <option name="state" value="Uttar Pradesh">Uttar Pradesh</option>
+                      <option name="state" value="Madhya Pradesh">Madhya Pradesh</option>
+                      <option name="state" value="Andhra Pradesh">Andhra Pradesh</option>
+                      <option name="state" value="Maharashtra">Maharashtra</option>
+                    </select></td>
+                </tr>
+                <tr>
+                  <td>Postal Code</td>
+                  <td><input type="text"></td>
+                  <td>Country</td>
+                  <td><input type="text"></td>
+                </tr>
+              </table>
+            </fieldset>
+          </form>
+        </fieldset>
+      </form>
+      <table>
+        <tr>
+          <td>IHI Number</td>
+          <td>80036</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Number Status</td>
+          <td colspan="2"><input type="text"></td>
+
+        </tr>
+        <tr>
+          <td>Record Status</td>
+          <td colspan="2"><input type="text"></td>
+        </tr>
+        <tr>
+          <td>Last Updated</td>
+          <td colspan="2"><input type="text"></td>
+        </tr>
+      </table>
+      <tr>
+        <td></td>
+        <td><input type="submit" button-radius="4" value="Submit" /></td>
+        <td><input type="reset" button-radius="4" value="Clear" /></td>
+      </tr>
+      </table>
+      </table>
+    </fieldset>
+  </form>
+
+
+</body>
+
+</html>
